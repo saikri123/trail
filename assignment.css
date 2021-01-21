@@ -1,0 +1,252 @@
+html, body, div, span, a, h1, h2, h3, h4, h5, h6, p,  a,  i,  ul, li,  form,  div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+  div {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ ul {
+    list-style: none;
+}
+
+
+.textareainput {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-size: 1em;
+    resize: none;
+}
+
+.button {
+    
+    
+    padding: 8px;
+    border: none;
+    font-size: 1.2em;
+    color: #aaa;
+    background-color: #f9f9f9;
+    text-align: center;
+
+    display: inline-block;
+    width: auto;
+    background-color: olive;
+    color: white;
+}
+
+
+.pointer {
+    cursor: pointer ;
+}
+
+.pointer:hover {
+    opacity: 0.7;
+}
+
+.pointer:active {
+    outline: none;
+}
+* {
+    box-sizing:border-box;
+}
+
+.div {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 8px 20px;
+    background-color: rgba( 64, 144, 172, 0.65 );
+    color: white;
+}
+
+
+.div > *{
+
+
+    width: 300px;
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+}
+
+
+ .A > *, .B > * {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 2px;
+    margin: 0px 4px;
+    background-color: rgba( 64, 144, 172, 1 );
+}
+
+ .A > * {
+    justify-content: flex-start;
+}
+
+ .type{
+
+    padding: 0px;
+}
+
+ .type input {
+    width: 120px;
+    padding: 4px 0.5em;
+
+    
+    font-size: 1.15em;
+    line-height: 1.4;
+    color:black;
+}
+
+ .type input:focus {
+    background-color: white;
+}
+
+ .title {
+    justify-content: space-around;
+    font-family: "Comic Sans", "Comic Sans MS", cursive;
+    font-size: 1.3em;
+}
+
+ .B {
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    
+}
+
+.menu {
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+    color: black;
+    background-color: rgba( 128, 128, 128, 0.3 );
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 0;
+    overflow-x: hidden;
+}
+
+.board {
+    display: flex;
+    flex-basis: 100%;
+    
+    overflow: auto;
+    margin-top: 20px;
+    padding: 84px 20px 20px;
+}
+
+.C {
+    flex-shrink: 0;
+    flex-basis: 240px;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.D {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgba( 240, 240, 240, 0.9 );
+}
+
+.E {
+    display: flex;
+    justify-content: space-between;
+}
+
+.F {
+    margin: 4px;
+    font-weight: bold;
+}
+
+
+
+.G {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 4px;
+
+}
+
+.G .H {
+    float: right;
+    display: none;
+}
+
+.G:hover .H {
+    display: inline;
+}
+
+.add-card {
+    margin-bottom: 4px 0 8px;
+}
+
+
+
+input{
+    border-radius: 4px;
+
+    border: none;
+    outline: none;
+} 
+textarea {
+    border-radius: 4px;
+
+    border: none;
+    outline: none;
+}
+button{
+    border-radius: 4px;
+
+}
+.P {
+    margin: 10px 0;
+
+}
+
+.add-card-button {
+    margin-right: 8px;
+}
+
+.cancel {
+    position: relative;
+    top: 3px;
+}
